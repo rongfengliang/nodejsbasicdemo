@@ -1,0 +1,18 @@
+{
+  "name": "nodejsappdemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "run": "node app",
+    "build": "browserify main.js -o bundle.js",
+    "live": "live-server"
+  },
+  "dependencies": {
+    "baudio": "^2.1.2",
+    "browserify": "^15.1.0",
+    "event": "^1.0.0",
+    "live-server": "^1.2.0",
+    "util": "^0.10.3"
+  }
+}
